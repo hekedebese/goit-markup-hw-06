@@ -718,13 +718,12 @@ label > input {
   color: #4d5ae5;
   line-height: 1.33;
   text-decoration: underline;
-  margin-left: 4px;
 }
 
 .checkbox-label {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: baseline;
 }
 
 .custom-checkbox {
