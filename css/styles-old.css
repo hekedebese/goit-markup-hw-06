@@ -595,7 +595,6 @@ footer > .container {
   align-items: center;
   border-radius: 100%;
   background-color: #e7e9fc;
-  cursor: pointer;
   border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 8px;
   position: absolute;
