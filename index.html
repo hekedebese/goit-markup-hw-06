@@ -20,11 +20,11 @@
     <header>
       <!--ЛОГО-->
       <div class="menu container">
-        <a href="./index.html" class="logo">
-          <span class="accent">Web</span>Studio
-        </a>
         <!--СПИСОК И КОНТАКТНАЯ ИНФОРМАЦИЯ/НАВИГАЦИЯ-->
-        <nav>
+        <nav class="header-nav">
+          <a href="./index.html" class="logo">
+            <span class="accent">Web</span>Studio
+          </a>
           <ul class="nav-link">
             <li><a href="./index.html" class="nav-studio">Studio</a></li>
             <li><a href="./index.html">Portfolio</a></li>
@@ -45,11 +45,16 @@
             </li>
           </ul>
         </address>
+        <button type="button" class="burger-btn">
+          <svg class="icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-burger"></use>
+          </svg>
+        </button>
       </div>
     </header>
     <main>
       <!--HERO-->
-      <section class="main">
+      <section class="main hidden">
         <div class="container">
           <div class="main-box">
             <h1 class="main-title">Effective Solutions for Your Business</h1>
@@ -61,7 +66,7 @@
       </section>
 
       <!--FEATURES-->
-      <section class="section">
+      <section class="section hidden">
         <div class="container">
           <h2 class="visually-hidden">Our Features</h2>
           <ul class="features">
@@ -118,7 +123,7 @@
       </section>
 
       <!--TEAM-->
-      <section class="team section">
+      <section class="team section hidden">
         <div class="container">
           <h2 class="team-title">Our Team</h2>
           <ul class="team-list">
@@ -287,7 +292,7 @@
       </section>
 
       <!--PORTFOLIO-->
-      <section class="portfolio section">
+      <section class="portfolio section hidden">
         <div class="container">
           <h2>Our Portfolio</h2>
           <ul class="portfolio-list">
@@ -421,7 +426,7 @@
         </div>
       </section>
     </main>
-    <footer>
+    <footer class="hidden">
       <div class="container">
         <!-- LEFT BOX -->
         <div class="footer-text">
@@ -491,7 +496,7 @@
 
     <!-- MODAL -->
 
-    <div class="modal-overlay" data-modal>
+    <div class="modal-overlay hidden" data-modal>
       <div class="modal">
         <button type="button" class="close-button" data-modal-close>
           <svg class="icon" width="8" height="8">
