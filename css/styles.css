@@ -1062,10 +1062,6 @@ footer > .container {
   border-color: #4d5ae5;
 }
 
-.form-icon-box:focus-within .icon {
-  fill: #4d5ae5;
-}
-
 .form-icon-box {
   position: relative;
   margin-bottom: 8px;
@@ -1075,6 +1071,13 @@ footer > .container {
   position: absolute;
   top: 26px;
   left: 16px;
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.form-icon-box:focus-within .icon {
+  fill: #4d5ae5;
 }
 
 .label {
@@ -1200,5 +1203,21 @@ footer > .container {
   .modal {
     width: 408px;
     min-height: 584px;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .close-button:hover,
+  .modal-submit-button:hover {
+    background-color: #404bbf;
+  }
+
+  .close-button:hover .icon {
+    fill: #fff;
+  }
+
+  .form input:hover,
+  .textarea:hover {
+    border-color: #4d5ae5;
   }
 }
