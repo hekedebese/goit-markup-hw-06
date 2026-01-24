@@ -163,7 +163,7 @@ textarea {
   bottom: -1px;
   background-color: #404bbf;
   border-radius: 2px;
-  content: "";
+  content: '';
 }
 
 address {
@@ -435,7 +435,6 @@ footer > .container {
 .footer-icon p,
 .footer-form p {
   font-weight: 500;
-  letter-spacing: 0.02em;
   margin-bottom: 16px;
 }
 
