@@ -1134,7 +1134,6 @@ footer > .container {
 }
 
 .checkbox-text {
-  width: 231px;
   font-size: 12px;
   line-height: 1.16;
   letter-spacing: 0.04em;
@@ -1145,6 +1144,7 @@ footer > .container {
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  flex-shrink: 0;
   width: 16px;
   height: 16px;
   border-radius: 2px;
@@ -1194,4 +1194,11 @@ footer > .container {
 
 .modal-submit-button:focus {
   background-color: #404bbf;
+}
+
+@media screen and (min-width: 768px) {
+  .modal {
+    width: 408px;
+    min-height: 584;
+  }
 }
