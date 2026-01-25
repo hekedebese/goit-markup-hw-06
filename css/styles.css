@@ -364,7 +364,7 @@ header {
     content: '';
   }
 
-  .address-list {
+  .header-address {
     display: block;
     line-height: 1.5;
   }
@@ -408,7 +408,7 @@ header {
   }
 }
 
-/* __________MAIN__________ */
+/* __________HERO__________ */
 
 .main-box {
   display: flex;
@@ -432,7 +432,7 @@ header {
   .main {
     background-image:
       linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-      url(../images/bg/background-2x.jpg);
+      url(../images/bg/background-mob-2x.jpg);
   }
 }
 
@@ -475,7 +475,16 @@ header {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    @media screen and (min-resolution: 2x), (min-device-pixel-ratio: 2) {
+  }
+  .main-title {
+    font-size: 56px;
+    line-height: 1.07;
+    width: 496px;
+    margin-bottom: 36px;
+  }
+
+  @media screen and (min-resolution: 2x), (min-device-pixel-ratio: 2) {
+    .main {
       background-image:
         linear-gradient(
           to bottom,
@@ -484,12 +493,6 @@ header {
         ),
         url(../images/bg/background-tab-2x.jpg);
     }
-  }
-  .main-title {
-    font-size: 56px;
-    line-height: 1.07;
-    width: 496px;
-    margin-bottom: 36px;
   }
 }
 
@@ -503,15 +506,6 @@ header {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    @media screen and (min-resolution: 2x), (min-device-pixel-ratio: 2) {
-      background-image:
-        linear-gradient(
-          to bottom,
-          rgba(46, 47, 66, 0.7),
-          rgba(46, 47, 66, 0.7)
-        ),
-        url(../images/bg/background-2x.jpg);
-    }
   }
   .main-title {
     margin-bottom: 48px;
@@ -520,6 +514,18 @@ header {
 
   .main-title-button:hover {
     background-color: #404bbf;
+  }
+
+  @media screen and (min-resolution: 2x), (min-device-pixel-ratio: 2) {
+    .main {
+      background-image:
+        linear-gradient(
+          to bottom,
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/bg/background-2x.jpg);
+    }
   }
 }
 
