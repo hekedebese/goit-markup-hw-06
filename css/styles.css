@@ -762,9 +762,6 @@ header {
 
   .portfolio-item-list {
     flex-basis: calc((100% - 48px) / 3);
-  }
-
-  .portfolio-item-list {
     box-shadow: none;
     transition-property: box-shadow;
     transition-duration: 250ms;
