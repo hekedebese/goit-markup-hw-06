@@ -1165,7 +1165,6 @@ footer > .container {
 
 .checkbox-field a {
   color: #4d5ae5;
-  line-height: 1.33;
   text-decoration: underline;
 }
 
@@ -1177,7 +1176,7 @@ footer > .container {
 
 .checkbox-text {
   font-size: 12px;
-  line-height: 1.16;
+  line-height: 1.33;
   letter-spacing: 0.04em;
   color: #8e8f99;
   width: 231px;
@@ -1243,6 +1242,10 @@ footer > .container {
   .modal {
     width: 408px;
     min-height: 584px;
+  }
+
+  .checkbox-text {
+    width: 100%;
   }
 }
 
