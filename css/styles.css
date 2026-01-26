@@ -366,7 +366,12 @@ header {
 
   .header-address {
     display: block;
-    line-height: 1.5;
+  }
+
+  .address-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
   }
 
   .address-list-link {
@@ -393,7 +398,7 @@ header {
   }
 
   .address-list {
-    display: flex;
+    flex-direction: row;
     gap: 40px;
   }
 
@@ -548,6 +553,10 @@ header {
   line-height: 1.11;
 }
 
+.features > li > p {
+  font-weight: 500;
+}
+
 @media screen and (min-width: 768px) {
   .features {
     flex-direction: row;
@@ -595,6 +604,10 @@ header {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+  }
+
+  .features > li > p {
+    font-weight: 400;
   }
 }
 
@@ -957,7 +970,7 @@ footer > .container {
 }
 
 @media screen and (min-width: 1158px) {
-  .footer {
+  footer {
     padding: 100px 0;
   }
 
