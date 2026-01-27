@@ -1226,7 +1226,7 @@ footer > .container {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-..modal-submit-button:hover,
+.modal-submit-button:hover,
 .modal-submit-button:focus {
   background-color: #404bbf;
 }
@@ -1235,6 +1235,7 @@ footer > .container {
   .modal {
     width: 408px;
     min-height: 584px;
+    padding: 72px 24px 24px;
   }
 
   .checkbox-text {
