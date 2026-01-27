@@ -688,7 +688,7 @@ header {
   }
 
   .team-list li {
-    width: calc((100% - 24px) / 2);
+    width: 264px;
   }
 }
 
@@ -848,6 +848,7 @@ footer > .container {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.footer-icon a:hover,
 .footer-icon a:focus {
   background-color: #31d0aa;
 }
@@ -986,10 +987,6 @@ footer > .container {
   .footer-text {
     margin-right: 120px;
     margin-bottom: 0;
-  }
-
-  .footer-icon a:hover {
-    background-color: #31d0aa;
   }
 
   .footer-form {
