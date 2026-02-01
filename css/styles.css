@@ -161,6 +161,7 @@ header {
 @media screen and (min-width: 768px) {
   .logo {
     padding: 24px 0;
+    margin-right: 76px;
   }
 }
 
@@ -335,10 +336,6 @@ header {
     align-items: center;
   }
 
-  .logo {
-    margin-right: 120px;
-  }
-
   .nav-link {
     display: flex;
     gap: 40px;
@@ -402,10 +399,6 @@ header {
 }
 
 @media screen and (min-width: 1158px) {
-  .logo {
-    margin-right: 0;
-  }
-
   .address-list {
     flex-direction: row;
     gap: 40px;
